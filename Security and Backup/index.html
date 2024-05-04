@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory Management System</h1>
+        <h6>username: admin <br>
+        password: password</h6>
+
+        <!-- Login Form -->
+        <div id="loginForm" class="form-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Dashboard (visible after login) -->
+        <div id="dashboard" class="hidden">
+            <h2>Welcome, <span id="usernameDisplay"></span>!</h2>
+            <!-- Dashboard content goes here -->
+        </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
