@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Business System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Integrated Business System</h1>
+    </header>
+
+    <div class="container">
+        <!-- Integration Section -->
+        <section>
+            <h2>Integrated Systems</h2>
+            <div id="integrationOptions">
+                <button onclick="connectToAccountingSoftware()">Connect to Accounting Software</button>
+                <button onclick="connectToERPSystem()">Connect to ERP System</button>
+                <button onclick="connectToEcommercePlatform()">Connect to E-commerce Platform</button>
+            </div>
+        </section>
+
+        <!-- Customization Section -->
+        <section>
+            <h2>Customization Options</h2>
+            <form id="customizationForm">
+                <label for="interfaceColor">Interface Color:</label>
+                <input type="color" id="interfaceColor">
+                <label for="functionality">Select Functionality:</label>
+                <select id="functionality">
+                    <option value="inventory">Inventory Management</option>
+                    <option value="sales">Sales Tracking</option>
+                    <option value="reporting">Reporting & Analytics</option>
+                </select>
+                <button type="submit">Apply Customization</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
